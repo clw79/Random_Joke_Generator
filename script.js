@@ -9,7 +9,6 @@ let getJoke = () => {
         .then(item => {
             jokeContainer.textContent = `${item.joke}`;
             jokeContainer.classList.add("fade");
-            console.log(item);
         });
 }
 
